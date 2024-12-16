@@ -1,9 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Count count = new Count();
+        Count count = new Count(12,2);
 
-        count.number1 = 10;
-        count.number2 = 12;
         System.out.println(count.soma());
     }
 }
