@@ -1,3 +1,5 @@
+package Encapsulamento;
+
 public class Main {
     public static void main(String[] args) {
         Count countUm = new Count(12,2);
